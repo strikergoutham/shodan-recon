@@ -13,21 +13,21 @@ Shodan API Key should be given mandatorily.
 
 search shodan using a custom query,fetch results and statistics:
 
-python shodan-recon.py -k <API-Key> -s "product:Docker"
+python shodan-recon.py -k [API-Keyy] -s "product:Docker"
   
   
 lookup an IP for details :
 
-python shodan-recon.py -k <API-Key> -ip <IP>
+python shodan-recon.py -k [API-Keyy] -ip <IP>
   
 
 Initiate an on demand scan for IP/set of IP's(comma seperated) :
 
-python shodan-recon.py -k <API-Key> -odip <IP/IP's>
+python shodan-recon.py -k [API-Keyy] -odip <IP/IP's>
   
  
  fetch domain information and subdomain details of a domain :
  
- python shodan-recon.py -k <API-Key> -dlurl <example.com>
+ python shodan-recon.py -k [API-Keyy] -dlurl <example.com>
  
  
